@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.outer-border {
+  border: solid 20px rebeccapurple;
+  background-color: rosybrown;
+  border-radius: 20px;
+  padding-top: 20px;;
+}
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.color-button, .black-button, .reset-button {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  width: 400px;
+  height: 400px;
+  background-color: grey;
+}
+
+.unit {
+  width: 100%;
+}
