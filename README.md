@@ -1,5 +1,9 @@
 # Etch-a-Sketch
 
+## Live preview
+
+[Live preview](https://ismailco.github.io/Etch-a-Sketch/)
+
 ## Built With
 
 - HTML
